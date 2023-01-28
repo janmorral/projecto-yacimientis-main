@@ -1,0 +1,71 @@
+body {
+    background-image: url('fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+h2, h3, p {
+    background-color: #fffc3a7c; /*color de fondo*/
+    border-radius: 0px; /*redondear bordes*/
+    margin: 10px; /* elimina el margen por defecto */
+    padding: 10px; /* elimina el padding por defecto */
+}
+
+h1 {
+    font-family: 'Impact';
+    background-color: #fffc3a6b; /*color de fondo*/
+    border-radius: 10px; /*redondear bordes*/
+    font-size: 45px; /* tamaño de la fuente */
+    font-weight: bold; 
+    text-align: center; 
+    padding: 20px 0px; 
+}
+
+h2 {
+    /* estilos para el encabezado h2 */
+    font-size: 24px; /* tamaño de la fuente */
+    text-align: left; /* alineación del texto */
+    padding: 10px 0; /* padding superior e inferior */
+}
+
+h3 {
+    /* estilos para el encabezado h2 */
+    font-size: 17px; /* tamaño de la fuente */
+    font-weight:lighter ; /* peso de la fuente */
+    text-align: left; /* alineación del texto */
+    padding: 10px 0; /* padding superior e inferior */
+}
+
+p {
+    /* estilos para el encabezado h2 */
+    font-size: 17px; /* tamaño de la fuente */
+    font-weight:lighter ; /* peso de la fuente */
+    text-align: left; /* alineación del texto */
+    padding: 10px 0; /* padding superior e inferior */
+}
+
+img{
+    max-width:500px;
+    height:auto;
+    float:left;
+    margin:20px;
+    border: solid 5px #f2c924;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1.2em;
+  }
+    .texto {
+      background-color: #fff347;
+}
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+}
